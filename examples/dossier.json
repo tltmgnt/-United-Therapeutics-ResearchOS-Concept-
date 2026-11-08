@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "label": "Fictional research dossier, not United Therapeutics data",
+  "as_of": "2026-11-08T00:00:00Z",
+  "expires_at": "2026-12-08T00:00:00Z",
+  "context": {
+    "species": "synthetic",
+    "model": "fictional bench assay",
+    "endpoint": "fictional signal",
+    "unit": "arbitrary_units"
+  },
+  "claims": [
+    {
+      "id": "summary-claim",
+      "version": 1,
+      "statement": "Summarize the supplied fictional assay table; no therapeutic claim",
+      "dependencies": [],
+      "evidence_ids": [
+        "assay-data"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "assay-data",
+      "kind": "raw_data",
+      "source_id": "synthetic:fixture-not-company-data",
+      "context": {
+        "species": "synthetic",
+        "model": "fictional bench assay",
+        "endpoint": "fictional signal",
+        "unit": "arbitrary_units"
+      },
+      "observed_at": "2026-11-07T00:00:00Z",
+      "expires_at": "2026-12-08T00:00:00Z",
+      "content_base64": "cmVwbGljYXRlX2lkLGdyb3VwLHZhbHVlCmMxLGNvbnRyb2wsMQpjMixjb250cm9sLDMKdDEsdGVzdCw0CnQyLHRlc3QsNgo=",
+      "sha256": "411108804da3109a6276baa36374511692bab8982f53fb8bc5859eb66e763677"
+    }
+  ],
+  "reviews": [],
+  "assay": {
+    "artifact_id": "assay-data",
+    "control_group": "control",
+    "treatment_group": "test"
+  }
+}
