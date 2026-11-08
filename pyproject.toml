@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "independent-therapeutics-researchos"
+version = "0.1.0"
+description = "Independent offline research evidence dossiers and ResearchOS replay"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+[project.scripts]
+therapeutics-research = "therapeutics_research.__main__:main"
+[tool.setuptools.packages.find]
+include = ["therapeutics_research*"]
