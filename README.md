@@ -118,3 +118,5 @@ integrity/context/expiry failures, malformed CSV, dependencies, role/digest/expi
 rejection, replay tampering and core conformance. Installed CLI tests import outside
 the checkout. CI runs Python 3.10, 3.12 and 3.13 with fictional data only.
 Existing Apache-2.0 license retained; canonical ResearchOs code is Apache-2.0.
+
+**∞**
