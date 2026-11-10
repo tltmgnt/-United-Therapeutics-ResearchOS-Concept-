@@ -1,0 +1,27 @@
+{
+  "case_count": 8,
+  "command": "python curriculum/lab.py --verify",
+  "exit_code": 0,
+  "expected_sha256": "9bac00a90f247eeab7b7a0f6359c42cc49a26d3a979ac849eeefd0461ea7b74c",
+  "lab_sha256": "ddadb127a7bbc55a85c24e56ca2c079674c04ee62e9ce7f350f55ceeed730e60",
+  "python": "3.12.14",
+  "repository": "tltmgnt/-United-Therapeutics-ResearchOS-Concept-",
+  "schema_version": 1,
+  "scope": "Local synthetic curriculum validation on the recorded source snapshot; not complete repository CI, learning outcomes, independent scientific reproduction or deployment approval",
+  "source_and_fixture_sha256": {
+    "examples/dossier.json": "c3af34c4555e6fcbc7f314504c2fef2e5f3150dc082569799b1a27876e090cce",
+    "therapeutics_research/__init__.py": "d79609e82bd8c9b0a9f7a98fdb47e5ee20b25e952a5fc806cc1dd5abc7b4c523",
+    "therapeutics_research/__main__.py": "550749aad3b87fcd7b13477b4b8f84c6c72cc053aef9dd6d3ab1a050678b45db",
+    "therapeutics_research/_tect/__init__.py": "532852937b0d9ae7a09360426373a909171eedcceda6c7b814397a4545132dc3",
+    "therapeutics_research/_tect/__main__.py": "01b079617de0074b77c6746068d51b4921ce6fbb157778d9a10135b966ddb2fb",
+    "therapeutics_research/_tect/core.py": "f00f5c34be6d0e2cc107754b46da2f94fd2a2b43a7cf08a86cae4c114dec520e",
+    "therapeutics_research/_tect/experiments.py": "78716550613dcc902190a2c10a9c56070bd6e6f4a2b4f1db9617295a9c90e519",
+    "therapeutics_research/_tect/io.py": "4ee33f9733fc3225072fe9602e95e14a98d2968bf7903fcc660c1fc914a34383",
+    "therapeutics_research/_tect/pilot.py": "d029c7aee3d6e5adf302ed7caa15ec4934ca79c0a8be86b55124e6939d2663c5",
+    "therapeutics_research/bundle.py": "2f6d3f65014cb4d0b1e2aa8af7102e9d2439c7a68cbc5ada5a2ddbcba8e3a421",
+    "therapeutics_research/dossier.py": "79c865c5a4652e4d14cbd71062c3d953dbc021faced14b098c30e6e790482cb3",
+    "therapeutics_research/researchos.py": "0afbcb9572762c9d7ed42d15b64e199750f677bd0ad51ea1054b39d31d9aec46"
+  },
+  "source_base_commit": "fddb2d7477d2bd38093e99896829e225fa55b455",
+  "wrong_expectation_exit_code": 1
+}
