@@ -120,3 +120,7 @@ the checkout. CI runs Python 3.10, 3.12 and 3.13 with fictional data only.
 Existing Apache-2.0 license retained; canonical ResearchOs code is Apache-2.0.
 
 **∞**
+
+## Topology compatibility and curriculum
+
+See the [repository-specific v2 curriculum](docs/portfolio/TOPOLOGY_CURRICULUM_V2.md) for the minimum useful mathematics, six-criterion compatibility scorecard, source-linked exercises and adoption boundaries.
